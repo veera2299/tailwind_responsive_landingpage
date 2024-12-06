@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../../assets/web/logo.png'
+import logo from '../../assets/v2_logo_white.png'
 import { IoSearch } from "react-icons/io5";
 import { IoCartOutline } from "react-icons/io5";
 import DarkMode from './DarkMode';
@@ -60,7 +60,7 @@ const NavBar = ({popupHandler}) => {
           <div>
             <a href="#" className='font-bold text-2xl sm:text-3xl flex gap-2'>
               <img src={logo} alt="logo" className='w-10' />
-              Cart
+              Shop
             </a>
           </div>
           {/* search bar */}

@@ -1,5 +1,5 @@
 import React from 'react'
-import footerLogo from '../../assets/web/logo.png';
+import footerLogo from '../../assets/v2_logo_white.png';
 import Banner from '../../assets/web/footer-pattern.jpg'
 import { FaFacebook, FaInstagram, FaLinkedin, FaLocationArrow, FaMobileAlt } from 'react-icons/fa';
 
@@ -42,9 +42,9 @@ const Footer = () => {
                         <h1 className='sm:text-3xl text-xl font-bold sm:text-left  text-justify mb-3 flex items-center
                         '>
                             <img src={footerLogo} alt=""
-                            className='max-w-[50px]'
+                            className='w-12 mr-3'
                             />
-                            Cart
+                            Shop
                         </h1>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, minus?

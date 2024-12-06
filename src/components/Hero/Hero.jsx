@@ -8,25 +8,26 @@ import Slider from 'react-slick';
 const ImageList = [
     {
         id: 1,
-        img: Image1,
-        title: "Lorem ipsum dolor sit amet.",
+        img: Image3,
+        title: "Greatest Sale",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem saepe non maiores suscipit, incidunt reprehenderit, rerum ea possimus ratione obcaecati aut sequi fugiat, dignissimos voluptate placeat alias quo laboriosam totam.",
     },
     {
         id: 2,
         img: Image2,
-        title: "Lorem ipsum dolor sit amet.",
+        title: "Trending Product",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem saepe non maiores suscipit, incidunt reprehenderit, rerum ea possimus ratione obcaecati aut sequi fugiat, dignissimos voluptate placeat alias quo laboriosam totam.",
     },
     {
         id: 3,
-        img: Image3,
-        title: "Lorem ipsum dolor sit amet.",
+        img: Image1,
+        title: "Trending Product",
         description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem saepe non maiores suscipit, incidunt reprehenderit, rerum ea possimus ratione obcaecati aut sequi fugiat, dignissimos voluptate placeat alias quo laboriosam totam.",
+
     },
 ]
 
-const Hero = ({popupHandler}) => {
+const Hero = ({ popupHandler }) => {
 
     var settings = {
         dots: true,
@@ -69,12 +70,12 @@ const Hero = ({popupHandler}) => {
                                         {data.description}
                                     </p>
                                     <div
-                                    data-aos = "fade-up"
-                                    data-aos-duration = "500"
-                                    data-aos-delay = "300"
+                                        data-aos="fade-up"
+                                        data-aos-duration="500"
+                                        data-aos-delay="300"
                                     >
                                         <button
-                                        onClick={()=>popupHandler()}
+                                            onClick={() => popupHandler()}
                                             className='bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full'
                                         >Order Now</button>
                                     </div>
